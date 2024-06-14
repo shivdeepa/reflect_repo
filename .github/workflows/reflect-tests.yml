@@ -2,7 +2,7 @@ name: Reflect Tests
 
 on:
   pull_request:
-    types: [opened, synchronize]  # Trigger on PR creation and updates
+    types: [opened, synchronize]  ## Trigger on PR creation and updates
 
 jobs:
   reflect_tests:
